@@ -1,11 +1,4 @@
-# 🌳 Go Bonzai™ Composite Command Tree
-
-*Create a new GitHub project using this template and change this
-README.md to match your project. Make all your template changes before
-making your first commit.*
-
-[![GoDoc](https://godoc.org/github.com/rwxrob/bonzai-example?status.svg)](https://godoc.org/github.com/rwxrob/bonzai-example)
-[![License](https://img.shields.io/badge/license-Apache2-brightgreen.svg)](LICENSE)
+# Check Redirects Bonzai
 
 ## Install
 
@@ -15,7 +8,7 @@ Bonzai command tree.
 Standalone
 
 ```
-go install github.com/rwxrob/bonzai-example/cmd/bonzai-example@latest
+go install github.com/danielmichaels/check-redirects-bonzai/cmd/cli@latest
 ```
 
 Composed
@@ -58,10 +51,9 @@ access it.
 * Change `bonzai-example` every place to your project name (`git grep
   bonzai-example`)
 * Remove anything you don't need
-* Change `.github/FUNDING.yaml` to your own information
 * Update `.gitignore` to your liking
 * Will need to `go get -u` to update dependencies
 
 ## Other Examples
 
-* <https://github.com/rwxrob/z> - the one that started it all
+* <https://github.com/rwxrob/z> - the one that started it all by Bonzai's creator.

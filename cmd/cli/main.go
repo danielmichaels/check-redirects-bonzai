@@ -3,7 +3,7 @@
 
 package main
 
-import example "github.com/rwxrob/bonzai-example"
+import cmd "github.com/danielmichaels/check-redirects-bonzai"
 
 // tree grown from branch
-func main() { example.Cmd.Run() }
+func main() { cmd.Cmd.Run() }
